@@ -1,5 +1,4 @@
 
-
 from typing import Annotated
 
 from fastapi import Depends, FastAPI, HTTPException, status
@@ -48,6 +47,8 @@ def get_user(db, username: str):
     if username in db:
         user_dict = db[username]
         return UserInDB(**user_dict)
+    else:
+        return None
 
 
 def fake_decode_token(token):
