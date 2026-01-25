@@ -27,7 +27,7 @@ print("Even Of Num: %s",evenofnum)
 print("OR Of Num: %s",orofnum)
 print("NOT Of Num: %s",notofnum)
 
-
+# example
 
 # how to find a number is even with Modulus operation( %, /  or // )
 
